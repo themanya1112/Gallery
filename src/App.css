@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20vh 0;
+  background-color: aliceblue;
+}
+
+.app-header {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 3px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.viewer-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 60vh;
+  background-color: #f0f2f5;
+
+}
+
+.viewer-box {
+  flex: 1;
+  margin: 0 0%;
+  max-width: calc(50% - 0.05rem);
+  height: 100%;
+
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
